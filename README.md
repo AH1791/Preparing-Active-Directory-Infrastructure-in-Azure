@@ -130,11 +130,15 @@ Next, I need configure our clients DNS settings to the DC. To start, back in Azu
 <br />
 <br />
 Then, I'll go to the network setting of the client machine. click on the NIC (Network Interface Card), go to settings, then DNS servers and switch from "Inherit from virtual network" to "Custom". Input the DCs private IP here and save:  <br/>
-<img
+
+![image](https://github.com/user-attachments/assets/c58d57dc-810b-41cc-9b49-384a609065b8)
+
 <br />
 <br />
 After that's saved, I'll restart the client machine:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/4f62de53-990f-47bf-839e-6e29128e3ec4)
+
 <br />
 <br />
 Once the machine as restarted, I'll use Remote Desktop connection to connect to the client machine using its public IP and the log in credentials I created while setting up this machine:  <br/>
