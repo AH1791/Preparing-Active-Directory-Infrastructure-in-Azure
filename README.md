@@ -50,7 +50,9 @@ Once my resource group and network is created, I'll create and set up the virtua
 <br />
 <br />
 In the Networking tab of this VM, I'll make sure it will create itself on the virtual network I just created. I'll leave all other settings default and create this VM: <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/2edf47c8-e877-44ad-bbd3-7f4ed531a7a5)
+
 <br />
 <br />
 Now, I'll create another VM that will serve as the client. The image for this machine should be Windows 10, NOT Windows Server like I did for the previous machine:  <br/>
