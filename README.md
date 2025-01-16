@@ -118,11 +118,15 @@ Click on "Windows Defender Firewall Properties" then on the, "Domain Profile", "
 <br />
 <br />
 You should see that all the firewall settings are disable:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/c52ba37f-21da-404f-94c0-4c7e999bfde3)
+
 <br />
 <br />
 Next, I need configure our clients DNS settings to the DC. To start, back in Azure, I'll grab the DCs private IP address:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/48d56b7e-9511-4945-8fe6-c01e90180422)
+
 <br />
 <br />
 Then, I'll go to the network setting of the client machine. click on the NIC (Network Interface Card), go to settings, then DNS servers and switch from "Inherit from virtual network" to "Custom". Input the DCs private IP here and save:  <br/>
