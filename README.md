@@ -56,10 +56,14 @@ In the Networking tab of this VM, I'll make sure it will create itself on the vi
 <br />
 <br />
 Now, I'll create another VM that will serve as the client. The image for this machine should be Windows 10, NOT Windows Server like I did for the previous machine:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/74da2208-d2cd-449d-b78b-154cc8af5476)
+
 <br />
 <br />
-<img
+
+![image](https://github.com/user-attachments/assets/1cadf145-114b-48ce-bd5f-2d646378211c)
+
 <br />
 <br />
 In the Networking tab of this VM, I'll make sure it will create itself on the same virtual network of the previous machine created. I'll leave all other settings default and create this VM:  <br/>
