@@ -96,7 +96,9 @@ Once I'm logged in, the following screen will appear with the Server Manager ope
 <br />
 <br />
 Next, I'm going to disable the firewall (you probably wouldn't do this in real lfe, but for the sake of this lab where nothing is at stake, I'll go ahead and do it). So, to disable the firewall I'll right click on the "Start" button and select "Run". Then type "wf.msc":  <br/>
-<img
+
+![image](https://github.com/user-attachments/assets/f3ea5dfc-bc36-4b94-8aba-26ebc5c5dff6)
+
 <br />
 <br />
 Click on "Windows Defender Firewall Properties" then on the, "Domain Profile", "Private Profile, and the "Public Profile" tabs, turn the firewall state off:  <br/>
