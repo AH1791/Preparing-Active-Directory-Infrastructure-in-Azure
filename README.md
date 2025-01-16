@@ -102,13 +102,19 @@ Next, I'm going to disable the firewall (you probably wouldn't do this in real l
 <br />
 <br />
 Click on "Windows Defender Firewall Properties" then on the, "Domain Profile", "Private Profile, and the "Public Profile" tabs, turn the firewall state off:  <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/79d12bae-4c6e-46d8-ba69-f473c26c48c6)
+
 <br />
 <br />
-<img 
+
+![image](https://github.com/user-attachments/assets/8ed47906-e70b-4019-a219-0a0489d57eb5)
+
 <br />
 <br />
-<img 
+
+![image](https://github.com/user-attachments/assets/7f8babaa-be6c-4c7d-91be-62d118a4768e)
+
 <br />
 <br />
 You should see that all the firewall settings are disable:  <br/>
