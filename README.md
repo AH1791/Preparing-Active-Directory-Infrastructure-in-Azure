@@ -73,10 +73,14 @@ In the Networking tab of this VM, I'll make sure it will create itself on the sa
 <br />
 <br />
 I now need to set our DC (Domain Controller) private IP address to "static" as by default it is set to "dynamic". I want this to be static, because this DC will double as a DNS (Domain Name System) server, which I will tell our client to use as a DNS server later. If the IP allocation setting were set to dynamic, the IP address could change leaving the DNS configuration of our client invalid. So, I'll go to the network settings of the DC and switch the IP allocation to static:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/1fa46dce-12c9-43c9-a854-b7cce95e000c)
+
 <br />
 <br />
-<img>
+
+![image](https://github.com/user-attachments/assets/fecf52c7-2857-4dcf-980d-df46e392c210)
+
 <br />
 <br />
 Next, I'll use Remote Desktop Connection to connect to the DC using its public IP and the log in credentials I created when setting up this machine:  <br/>
