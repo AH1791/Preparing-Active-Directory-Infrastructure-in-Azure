@@ -33,14 +33,20 @@ Navigate to Microsoft Azure and create a resource group: <br/>
 <br />
 <br />
 Next, create a virtual network like so: <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/2da13d36-da7e-4a57-87c9-a11d15d88484)
+
 <br />
 <br />
 Once my resource group and network is created, I'll create and set up the virtual machine that will act as our Domain Controller. For the image, make sure you use Windows Server:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/ec96a4a1-8a97-44fd-8eab-c4b04d534ec4)
+
 <br />
 <br />
-<img 
+
+![image](https://github.com/user-attachments/assets/bedd33ab-4053-446f-9ece-fae0fafd471c)
+
 <br />
 <br />
 In the Networking tab of this VM, I'll make sure it will create itself on the virtual network I just created. I'll leave all other settings default and create this VM: <br/>
