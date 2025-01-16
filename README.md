@@ -84,11 +84,15 @@ I now need to set our DC (Domain Controller) private IP address to "static" as b
 <br />
 <br />
 Next, I'll use Remote Desktop Connection to connect to the DC using its public IP and the log in credentials I created when setting up this machine:  <br/>
-<img >
+
+![image](https://github.com/user-attachments/assets/21112103-c799-465f-a7b7-861726a267bc)
+
 <br />
 <br />
 Once I'm logged in, the following screen will appear with the Server Manager open. (If this isn't what you're seeing and instead it a regular windows desktop, you may have connected to the client VM instead or chose the wrong image when creating the DC):  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/1f97ad72-6626-4991-97b4-9b11503e0b16)
+
 <br />
 <br />
 Next, I'm going to disable the firewall (you probably wouldn't do this in real lfe, but for the sake of this lab where nothing is at stake, I'll go ahead and do it). So, to disable the firewall I'll right click on the "Start" button and select "Run". Then type "wf.msc":  <br/>
