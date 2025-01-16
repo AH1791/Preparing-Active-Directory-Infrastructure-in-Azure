@@ -27,7 +27,9 @@ In this project I create two VMs (Virtual Machines), one running Windows Server,
 
 <p align="center">
 Navigate to Microsoft Azure and create a resource group: <br/>
-<img
+ 
+![image](https://github.com/user-attachments/assets/5f496924-1147-432a-ab34-92d16ac75556)
+
 <br />
 <br />
 Next, create a virtual network like so: <br/>
