@@ -67,7 +67,9 @@ Now, I'll create another VM that will serve as the client. The image for this ma
 <br />
 <br />
 In the Networking tab of this VM, I'll make sure it will create itself on the same virtual network of the previous machine created. I'll leave all other settings default and create this VM:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/f7e3c6e6-d396-463c-bc87-acd6c6c6ee35)
+
 <br />
 <br />
 I now need to set our DC (Domain Controller) private IP address to "static" as by default it is set to "dynamic". I want this to be static, because this DC will double as a DNS (Domain Name System) server, which I will tell our client to use as a DNS server later. If the IP allocation setting were set to dynamic, the IP address could change leaving the DNS configuration of our client invalid. So, I'll go to the network settings of the DC and switch the IP allocation to static:  <br/>
